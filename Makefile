@@ -8,5 +8,9 @@ lint:
 test:
 	python -m pytest hello_test.py
 
+format:
+	black -l 79 .
+
+
 
 
