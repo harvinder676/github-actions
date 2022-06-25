@@ -36,6 +36,9 @@ jobs:
           make test
       - name: Format
         run: |
-          make format    
+          make format  
+      - name: Run the Server
+        run: |
+          make run      
     
     
