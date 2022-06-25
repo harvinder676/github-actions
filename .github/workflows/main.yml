@@ -39,6 +39,6 @@ jobs:
           make format  
       - name: Run & Load Test the Server
         run: |
-          make run         
+          make load       
     
     
